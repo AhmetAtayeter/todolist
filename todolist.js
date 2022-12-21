@@ -12,9 +12,6 @@ function newElement() {
     ulDOM.append(liDOM)
 }
 
-let clicked = document.querySelector("ul#list>li")
-clicked.addEventListener("click",domClick)
-
-function domClick(){
-    console.log(clicked)
+function clicked(e){
+    console.log(e)
 }
